@@ -55,6 +55,22 @@ export default function Home() {
         <CarouselSwitch />
       </div>
       <ScrollPopUp />
+
+      {/* GitHub Repo Section */}
+      <div className="pt-12 px-6" id="github">
+        <h2 className="text-2xl font-bold mb-2 text-cyan-300">📦 Project Repository</h2>
+        <p className="mb-2 text-gray-300">
+          You can view all the source code for this website and its features here:
+        </p>
+        <a
+          href="https://github.com/CyberVenom65/front-end-battle-competition"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-cyan-400 underline hover:text-cyan-300 transition"
+        >
+          https://github.com/CyberVenom65/front-end-battle-competition
+        </a>
+      </div>
     </div>
   );
 }
